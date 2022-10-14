@@ -10,11 +10,10 @@ Note that lines 19 and 20 are flagged as having errors because the names are not
 '''
 
 from imp1 import *
-from imp2 import triple
+from imp2 import triple, more
 
 x = double(3)
 print(x)
 y = triple(4)
 print(y)
 z = more()
-z = imp2.more()
